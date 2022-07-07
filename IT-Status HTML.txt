@@ -16,10 +16,7 @@
     <div class="pb-2 mt-5 mb-2 border-bottom">
       <h1>
         Status Page
-        <span class="float-right d-none d-sm-block">
-          <a href="https://github.com/Cyclenerd/static_status" class="btn btn-primary" role="button">
-            <i class="fas fa-home"></i>
-            Homepage
+        <span class="float-right d-none d-sm-block">            
           </a>
         </span>
       </h1>
@@ -96,7 +93,21 @@
     <hr class="mt-4">
     <footer>
       <p>Powered by <a href="https://theauroratech.org/">The AuoraTECH</a></p>
-      <p class="text-muted">2022-07-06 13:06:31 EST</p>
+      
+   
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>Current Date and Time is <span id='date-time'></span>.</p>
+</body>
+</html>
+<script>
+var dt = new Date();
+document.getElementById('date-time').innerHTML=dt;
+</script>
+        <meta http-equiv="refresh" content="10">
     </footer>
 
   </div>
